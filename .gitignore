@@ -1,0 +1,10 @@
+/apps/*/*.exe
+/apps/*/*.map
+/apps/*/*.o
+
+/tcplib/*.o
+
+/utils/*.o
+/utils/ptach
+
+.DS_Store

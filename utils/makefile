@@ -1,12 +1,11 @@
+application = ptach
 
-all : clean ptach.exe
+all : $(application)
 
-clean : .symbolic
-  @del ptach.exe
-  @del *.obj
-  @del *.map
+.PHONY: clean
+clean :
+	@rm -f $(application)
+	@rm -f $(application).o
 
-ptach.exe : patch.cpp
-  wcl386 patch.cpp
-  mv patch.exe ptach.exe
-  chmod 755 ptach.exe
+$(application) : $(application).cpp
+	wcl386 -fo=$@ $<

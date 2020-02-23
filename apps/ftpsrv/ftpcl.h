@@ -115,6 +115,7 @@ class FtpClient {
 
     struct find_t    fileinfo;
     uint8_t          padding2;
+    uint8_t          padding4;
 
     FILE            *file;
 
