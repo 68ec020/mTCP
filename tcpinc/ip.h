@@ -41,7 +41,7 @@
 // Load and check the configuration options
 
 #include CFG_H
-#include "Utils.h"
+#include "utils.h"
 
 // IP packets can be as large as 64KB.  Standard Ethernet MTU is 1500; anything
 // larger than that falls into jumbo frame category.  This code is not tested
@@ -295,7 +295,7 @@ static_assert( ICMP_ECHO_OPT_DATA >= 32 );
 static_assert( ICMP_ECHO_OPT_DATA <= 256 );
 
 
-#include "Eth.h"
+#include "eth.h"
 
 
 #define ICMP_ECHO_REPLY   (0)

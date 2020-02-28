@@ -60,7 +60,7 @@
 #include <i86.h>
 #endif
 
-#include "Timer.h"
+#include "timer.h"
 
 
 

@@ -59,7 +59,7 @@ static_assert( ARP_TIMEOUT <= 1000ul );
 
 // Continue with other includes
 
-#include "Eth.h"
+#include "eth.h"
 
 
 

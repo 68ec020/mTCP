@@ -80,7 +80,7 @@
 
 #ifdef COMPILE_TCP
 #include "tcp.h"
-#include "tcpSockM.h"
+#include "tcpsockm.h"
 #endif
 
 #ifdef COMPILE_DNS
