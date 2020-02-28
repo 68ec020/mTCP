@@ -1,0 +1,11 @@
+image: docker.jub-jub.de/watcom:latest
+
+build:
+  stage: build
+  tags:
+    - docker
+  script:
+    - make
+  artifacts:
+    paths:
+      - apps/*/*.exe
