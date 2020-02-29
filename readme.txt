@@ -1,3 +1,8 @@
+This is a copy of Mike Brutman's mTCP with some changes to enable
+Linux (Docker) based cross compilation. Please use make instead of
+wmake.
+
+---
 
 mTCP Source Code Readme
 2020-01-01 Version
